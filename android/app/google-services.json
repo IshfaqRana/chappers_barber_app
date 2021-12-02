@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "12257345842",
+    "project_id": "beautician-barber-side-ishfaq",
+    "storage_bucket": "beautician-barber-side-ishfaq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12257345842:android:64f56ead1cc4beb6b1d72b",
+        "android_client_info": {
+          "package_name": "com.example.chappers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12257345842-vo4qaifsqp9kt0vlt688tdph0tah8pnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu2XTE5rarKuABqSUxl8BClNWC6VqqTOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12257345842-vo4qaifsqp9kt0vlt688tdph0tah8pnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
