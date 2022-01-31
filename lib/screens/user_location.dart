@@ -41,7 +41,7 @@ class MapSampleState extends State<UserLocationScreen> {
 
 
   getCurrentLocation() async{
-
+//AIzaSyCAr7cdaLZK5g9RXjVFc5czXue78j0IwQE
     Position position=await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high,);
 
     LatLng latLng=LatLng(position.latitude, position.longitude);
@@ -161,7 +161,7 @@ class MapSampleState extends State<UserLocationScreen> {
     // Generating the list of coordinates to be used for
     // drawing the polylines
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyCAr7cdaLZK5g9RXjVFc5czXue78j0IwQE", // Google Maps API Key
+      "Your API Key", // Google Maps API Key
       PointLatLng(startLatitude, startLongitude),
       PointLatLng(destinationLatitude, destinationLongitude),
       travelMode: TravelMode.transit,
